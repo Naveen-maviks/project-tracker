@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: .
+    image: project-tracker-frontend:0.1.0
+    container_name: tracker-ui
+    ports:
+      - "8080:80"
